@@ -1,30 +1,44 @@
 🟢 Self-Portfolio
-A personal portfolio website built to showcase my work, skills, and contact information.
+A personal portfolio website built to showcase my projects, skills, and contact information.
 
-Purpose: To serve as a digital resume and portfolio for recruiters, collaborators, and tech communities.
+🎯 Purpose
+To serve as a digital resume and portfolio for:
 
-Tech Stack: HTML, CSS (no backend)
+📌 Recruiters
 
-Key Features:
+🤝 Collaborators
 
-Home page introducing the developer
+🌐 Tech communities
 
-About Me section describing background and interests
+🛠️ Tech Stack
+🧱 HTML
 
-Projects section with live previews and links to GitHub repositories
+🎨 CSS
+(No backend involved)
 
-Resume download link
+🚀 Key Features
+🏠 Home Page: A brief introduction of the developer
 
-Contact form or mail link for direct communication
+🙋‍♂️ About Me: Background, interests, and passion
 
-Design Style:
+🧩 Projects Section:
+↳ Live previews + GitHub repository links
 
-Minimalist UI with responsive layout
+📄 Resume Download: Easy access to my resume
 
-Mobile-friendly and accessible
+📬 Contact:
+↳ Integrated form or direct email link for quick communication
 
-What I Learned:
+🎨 Design Style
+✨ Minimalist UI
 
-Web layout, responsive design techniques
+📱 Responsive Layout
 
-Organizing personal branding content effectively
+♿ Mobile-friendly & Accessible
+
+📚 What I Learned
+🔧 Web Layout & Structure
+
+📐 Responsive Design Techniques
+
+🧭 Effectively organizing personal branding content
