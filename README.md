@@ -1,44 +1,49 @@
-🟢 Self-Portfolio
-A personal portfolio website built to showcase my projects, skills, and contact information.
+## 🟢 Self-Portfolio
 
-🎯 Purpose
-To serve as a digital resume and portfolio for:
+A **personal portfolio website** built to showcase my **work, skills, and contact information**. Designed as a digital resume for recruiters, collaborators, and tech communities.
 
-📌 Recruiters
+---
 
-🤝 Collaborators
+### 🧠 Project Objective
+To create a **minimal, responsive portfolio** that:
+- Represents my **personal brand**
+- Highlights my **projects and resume**
+- Enables **direct communication** with visitors
 
-🌐 Tech communities
+---
 
-🛠️ Tech Stack
-🧱 HTML
+### 🔧 Technologies Used
+- 🧱 HTML  
+- 🎨 CSS  
+*(No backend — purely frontend)*
 
-🎨 CSS
-(No backend involved)
+---
 
-🚀 Key Features
-🏠 Home Page: A brief introduction of the developer
+### 🧩 Key Features
+- 🏠 **Home Page** — Introduction to who I am  
+- 🙋‍♂️ **About Me** — Background, interests, and passion  
+- 💼 **Projects Section** — With **live previews** & **GitHub links**  
+- 📄 **Resume Download** — One-click access to my resume  
+- 📬 **Contact Option** — Simple **form** or **mailto link** for direct reach
 
-🙋‍♂️ About Me: Background, interests, and passion
+---
 
-🧩 Projects Section:
-↳ Live previews + GitHub repository links
+### 🎨 Design Style
+- ✨ **Minimalist UI**  
+- 📱 **Responsive layout** across all screen sizes  
+- ♿ **Mobile-friendly & accessible** design  
 
-📄 Resume Download: Easy access to my resume
+---
 
-📬 Contact:
-↳ Integrated form or direct email link for quick communication
+### 📚 What I Learned
+- 🧭 Structuring content for effective personal branding  
+- 🧱 Web layout fundamentals  
+- 📐 Responsive design principles
 
-🎨 Design Style
-✨ Minimalist UI
+---
 
-📱 Responsive Layout
-
-♿ Mobile-friendly & Accessible
-
-📚 What I Learned
-🔧 Web Layout & Structure
-
-📐 Responsive Design Techniques
-
-🧭 Effectively organizing personal branding content
+### 🚀 Getting Started
+1. Clone the repo  
+```bash
+git clone https://github.com/SahadriX/Self-Portfolio.git  
+cd Self-Portfolio
