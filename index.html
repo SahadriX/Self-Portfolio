@@ -10,7 +10,7 @@
         :root {
             --primary: #6c5ce7;
             --secondary: #a29bfe;
-            --dark: #2d3436;
+            --dark: #1a1a2e;
             --light: #f5f6fa;
             --accent: #fd79a8;
             --gradient: linear-gradient(135deg, var(--primary), var(--accent));
@@ -24,8 +24,8 @@
         }
         
         body {
-            background-color: var(--light);
-            color: var(--dark);
+            background-color: var(--dark);
+            color: var(--light);
             overflow-x: hidden;
         }
         
@@ -177,7 +177,7 @@
         
         /* About Section */
         #about {
-            background-color: white;
+            background-color: var(--dark);
         }
         
         .about-content {
@@ -194,6 +194,7 @@
             margin-bottom: 20px;
             line-height: 1.8;
             font-size: 1.1rem;
+            color: #e6e6e6;
         }
         
         .fun-fact {
@@ -208,7 +209,7 @@
         
         /* Skills Section */
         #skills {
-            background-color: var(--light);
+            background-color: var(--dark);
         }
         
         .skills-container {
@@ -218,16 +219,16 @@
         }
         
         .skill-category {
-            background: white;
+            background: #16213e;
             padding: 30px;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
         }
         
         .skill-category:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
         }
         
         .skill-category h3 {
@@ -243,11 +244,12 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 5px;
+            color: #e6e6e6;
         }
         
         .skill-bar {
             height: 10px;
-            background: #e0e0e0;
+            background: #2d3748;
             border-radius: 5px;
             overflow: hidden;
         }
@@ -261,7 +263,7 @@
         
         /* Projects Section */
         #projects {
-            background-color: white;
+            background-color: var(--dark);
         }
         
         .projects-grid {
@@ -271,17 +273,17 @@
         }
         
         .project-card {
-            background: white;
+            background: #16213e;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             position: relative;
         }
         
         .project-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
         }
         
         .project-img {
@@ -301,7 +303,7 @@
         
         .project-info p {
             margin-bottom: 15px;
-            color: #666;
+            color: #e6e6e6;
             line-height: 1.6;
         }
         
@@ -313,11 +315,11 @@
         }
         
         .tech-item {
-            background: var(--light);
+            background: rgba(108, 92, 231, 0.2);
             padding: 5px 10px;
             border-radius: 20px;
             font-size: 0.8rem;
-            color: var(--dark);
+            color: var(--light);
         }
         
         .project-links {
@@ -341,7 +343,7 @@
         
         /* Experience Section */
         #experience {
-            background-color: var(--light);
+            background-color: var(--dark);
         }
         
         .timeline {
@@ -375,7 +377,7 @@
             position: absolute;
             width: 20px;
             height: 20px;
-            background: white;
+            background: var(--dark);
             border: 4px solid var(--primary);
             border-radius: 50%;
             top: 15px;
@@ -402,9 +404,9 @@
         
         .timeline-content {
             padding: 20px;
-            background: white;
+            background: #16213e;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         
         .timeline-content h3 {
@@ -414,12 +416,12 @@
         
         .timeline-content h4 {
             margin-bottom: 10px;
-            color: #666;
+            color: #e6e6e6;
             font-weight: 500;
         }
         
         .timeline-content p {
-            color: #666;
+            color: #e6e6e6;
             line-height: 1.6;
         }
         
@@ -430,7 +432,7 @@
         
         /* Contact Section */
         #contact {
-            background-color: white;
+            background-color: var(--dark);
         }
         
         .contact-container {
@@ -455,6 +457,7 @@
             display: flex;
             align-items: center;
             margin-bottom: 15px;
+            color: #e6e6e6;
         }
         
         .contact-item i {
@@ -477,8 +480,8 @@
         .social-links a {
             width: 40px;
             height: 40px;
-            background: var(--light);
-            color: var(--dark);
+            background: rgba(108, 92, 231, 0.2);
+            color: var(--light);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -504,16 +507,19 @@
             display: block;
             margin-bottom: 5px;
             font-weight: 600;
+            color: #e6e6e6;
         }
         
         .form-group input,
         .form-group textarea {
             width: 100%;
             padding: 12px;
-            border: 1px solid #ddd;
+            background: #16213e;
+            border: 1px solid #2d3748;
             border-radius: 5px;
             font-size: 1rem;
             transition: all 0.3s ease;
+            color: #e6e6e6;
         }
         
         .form-group input:focus,
@@ -530,7 +536,7 @@
         
         /* Footer */
         footer {
-            background: var(--dark);
+            background: #0f0f1a;
             color: white;
             padding: 50px 10% 20px;
             text-align: center;
@@ -683,8 +689,6 @@
                 <div class="cta-buttons">
                     <a href="#contact" class="btn btn-primary floating-2">Contact Me</a>
                     <a href="resume/RESUME.pdf" class="btn btn-primary floating-2" download>Download Resume</a>
-
-
                 </div>
             </div>
         </div>
@@ -804,6 +808,46 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="skill-category animate-on-scroll" style="animation-delay: 0.6s">
+                    <h3>API Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>RESTful APIs</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>GraphQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Postman/Testing</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>API Integration</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -821,32 +865,29 @@
                         <div class="tech-stack">
                             <span class="tech-item">Python</span>
                             <span class="tech-item">NLTK</span>
-                            
                             <span class="tech-item">Scikit-learn</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://colab.research.google.com/drive/1PzyN_XttxZv8fwEorZGzfa9r2MvOapnx?usp=drive_link" target="_blank"></i> Live Demo</a>
-                            <a href="https://github.com/SahadriX/NLP" target="_blank"></i> GitHub</a>
+                            <a href="https://colab.research.google.com/drive/1PzyN_XttxZv8fwEorZGzfa9r2MvOapnx?usp=drive_link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/SahadriX/NLP" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="project-card animate-on-scroll" style="animation-delay: 0.2s">
-                    <img src="https://i.ibb.co/1YLxHwXW/Screenshot-2025-05-22-133612.png" alt="Heart Disease Predictor App Screenshot" style="width:100%; max-width:600px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
-
-
+                    <img src="https://i.ibb.co/1YLxHwXW/Screenshot-2025-05-22-133612.png" alt="Heart Disease Predictor App" class="project-img">
                     <div class="project-info">
                         <h3>Heart Disease Predictor App</h3>
-                        <p>I developed a heart disease predictor web app that uses a machine learning model to analyze user input and predict the likelihood of heart disease.</p>
+                        <p>A web application that uses machine learning to predict heart disease risk based on user health metrics with 82% accuracy.</p>
                         <div class="tech-stack">
                             <span class="tech-item">Flask</span>
-                            <span class="tech-item">Html and css</span>
+                            <span class="tech-item">HTML/CSS</span>
                             <span class="tech-item">Render</span>
                             <span class="tech-item">Machine Learning</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://heart-disease-predictor-xo2z.onrender.com/" target="_blank" ></i> Live Demo</a>
-                            <a href="https://github.com/SahadriX/Heart-Disease-Predictor-" target="_blank" ></i> GitHub</a>
+                            <a href="https://heart-disease-predictor-xo2z.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/SahadriX/Heart-Disease-Predictor-" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -860,10 +901,48 @@
                             <span class="tech-item">HTML5</span>
                             <span class="tech-item">CSS3</span>
                             <span class="tech-item">JavaScript</span>
-                            
                         </div>
                         <div class="project-links">
                             <p>You are looking at the demo 🙂</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-on-scroll" style="animation-delay: 0.6s">
+                    <img src="https://i.ibb.co/SHmgdxc/Screenshot-2025-06-27-215309.png" alt="RESTful API Server" class="project-img">
+
+                    <div class="project-info">
+                        <h3>RESTful API Server</h3>
+                        <p> A lightweight RESTful API server for managing 🛒 product inventories with full CRUD and search functionality.</p>
+                        <div class="tech-stack">
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">Express</span>
+                            <span class="tech-item">MongoDB</span>
+                            <span class="tech-item">Swagger</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://my-api-server-d5fq.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo </a>
+                            <a href="https://github.com/SahadriX/my-api-server" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-on-scroll" style="animation-delay: 0.8s">
+                    <img src="https://i.ibb.co/DPWgh8Tj/Screenshot-2025-07-04-193842.png" alt="LLM Test Generator Output" class="project-img">
+
+
+                    <div class="project-info">
+                        <h3>LLM-Powered Test Generator</h3>
+                        <p>An automated unit test generator that uses large language models to analyze C++ code and produce comprehensive test cases.</p>
+                        <div class="tech-stack">
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item"> ollama Llama3</span>
+                            <span class="tech-item">Gtest</span>
+                            <span class="tech-item">CI/CD pipeline</span>
+                        </div>
+                        <div class="project-links">
+                            
+                            <a href="https://github.com/SahadriX/LLM-Powered-Automated-C-plus-plus-Unit-Test-Generator" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -886,9 +965,9 @@
                 </div>
                 <div class="timeline-item right animate-on-scroll" style="animation-delay: 0.2s">
                     <div class="timeline-content">
-                        <h3>Machine Learning Intern </h3>
-                        <h4>Corizo.</h4>
-                        <p class="timeline-date"> Summer 2024 </p>
+                        <h3>Machine Learning Intern</h3>
+                        <h4>Corizo</h4>
+                        <p class="timeline-date">Summer 2024</p>
                         <p>Developed and optimized machine learning models for real world tasks like Breast Cancer Classification and Stock Market Prediction, improving accuracy by 12%.</p>
                     </div>
                 </div>
@@ -905,7 +984,15 @@
                         <h3>Online Certifications</h3>
                         <h4>Various Platforms</h4>
                         <p class="timeline-date">2024-present</p>
-                        <p>Completed certifications in Machine Learning (Corizo), Cloud computing (Coursera).Software and Full Stack Development course ongoing (Coursera) </p>
+                        <p>Completed certifications in Machine Learning (Corizo), Cloud computing (Coursera). Software and Full Stack Development course ongoing (Coursera)</p>
+                    </div>
+                </div>
+                <div class="timeline-item left animate-on-scroll" style="animation-delay: 0.4s">
+                    <div class="timeline-content">
+                        <h3>Keploy API Fellowship</h3>
+                        <h4>Student</h4>
+                        <p class="timeline-date">June 2025 - July 2025</p>
+                        <p> Worked on learning, building, and testing APIs, including developing a full API server and creating an LLM-based C++ unit test generator to automate test case generation from source code.</p>
                     </div>
                 </div>
             </div>
@@ -937,8 +1024,6 @@
                     <div class="social-links">
                         <a href="https:www.linkedin.com/in/sahadri-bhattacharyya-85a628283/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/SahadriX" target="_blank"><i class="fab fa-github"></i></a>
-                        
-                        
                     </div>
                 </div>
                 <div class="contact-form animate-on-scroll" style="animation-delay: 0.2s">
@@ -965,6 +1050,8 @@
             </div>
         </div>
     </section>
+
+    
 
     <!-- Footer -->
     <footer>
